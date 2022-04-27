@@ -11,6 +11,7 @@ jobs:
       - name: run some command
         uses: nick-fields/retry@v2
         with:
+          timeout_seconds: 5
           retry_on: error
           max_attempts: 2
           command: |
