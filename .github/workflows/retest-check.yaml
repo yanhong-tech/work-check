@@ -14,6 +14,6 @@ jobs:
           timeout_seconds: 5
           retry_on: error
           max_attempts: 2
-          command: |
+          run: |
             echo "hello retry"
             exit 1
