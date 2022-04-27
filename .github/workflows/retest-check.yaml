@@ -13,6 +13,6 @@ jobs:
         with:
           retry_on: error
           max_attempts: 2
-          run: |
+          command: |
             echo "hello retry"
             exit 1
